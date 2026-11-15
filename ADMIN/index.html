@@ -13,7 +13,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
 
   <style>
@@ -41,7 +41,7 @@
 
     * {
       box-sizing: border-box;
-      font-family: 'IBM Plex Sans Arabic', sans-serif;
+      font-family: 'Cairo', 'Tajawal', sans-serif;
     }
 
     body {
@@ -769,47 +769,9 @@
         var savedComps = localStorage.getItem('alarabi_comps_v2');
         if (savedComps) state.competitions = JSON.parse(savedComps);
         var savedFixtures = localStorage.getItem('alarabi_fixtures_v2');
-        if (savedFixtures) {
-          var parsedFixtures = JSON.parse(savedFixtures);
-          if (Array.isArray(parsedFixtures)) {
-            state.fixtures = parsedFixtures;
-            var fixturesMigrated = false;
-            var knownFixtureKeys = {};
-            for (var fi = 0; fi < state.fixtures.length; fi++) {
-              var existingFixture = state.fixtures[fi];
-              knownFixtureKeys[existingFixture.uid || existingFixture.id] = true;
-              knownFixtureKeys[[existingFixture.date, existingFixture.competitionId, existingFixture.stage, existingFixture.opponent].join('|')] = true;
-            }
-            for (var di = 0; di < DEFAULT_FIXTURES.length; di++) {
-              var defaultFixture = DEFAULT_FIXTURES[di];
-              var defaultKey = [defaultFixture.date, defaultFixture.competitionId, defaultFixture.stage, defaultFixture.opponent].join('|');
-              if (!knownFixtureKeys[defaultFixture.uid] && !knownFixtureKeys[defaultFixture.id] && !knownFixtureKeys[defaultKey]) {
-                state.fixtures.push(JSON.parse(JSON.stringify(defaultFixture)));
-                knownFixtureKeys[defaultFixture.uid] = true;
-                knownFixtureKeys[defaultFixture.id] = true;
-                knownFixtureKeys[defaultKey] = true;
-                fixturesMigrated = true;
-              }
-            }
-            for (var ci = 0; ci < state.fixtures.length; ci++) {
-              var savedFixture = state.fixtures[ci];
-              if (savedFixture.stage === 'الجولة 21' && savedFixture.competitionId === 'zain-league' && savedFixture.date !== '2027-05-10') {
-                savedFixture.date = '2027-05-10';
-                savedFixture.lastModified = '2026-11-15T12:00:00Z';
-                savedFixture.sequence = (savedFixture.sequence || 1) + 1;
-                fixturesMigrated = true;
-              }
-            }
-            if (fixturesMigrated) {
-              localStorage.setItem('alarabi_fixtures_v2', JSON.stringify(state.fixtures));
-              var currentRevision = parseInt(localStorage.getItem('alarabi_feed_rev_v2') || '1', 10) || 1;
-              state.feedRevisionCount = currentRevision + 1;
-              localStorage.setItem('alarabi_feed_rev_v2', String(state.feedRevisionCount));
-            }
-          }
-        }
+        if (savedFixtures) state.fixtures = JSON.parse(savedFixtures);
         var savedRev = localStorage.getItem('alarabi_feed_rev_v2');
-        if (savedRev) state.feedRevisionCount = parseInt(savedRev, 10) || state.feedRevisionCount || 1;
+        if (savedRev) state.feedRevisionCount = parseInt(savedRev, 10) || 1;
       } catch (err) {}
     }
 
