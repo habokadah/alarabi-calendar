@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Al Arabi SC//Official Match Calendar Platform KW//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:النادي العربي الرياضي — جدول المباريات الرسمي
+X-WR-TIMEZONE:Asia/Kuwait
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VTIMEZONE
+TZID:Asia/Kuwait
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:+03
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fix-20261126-amircup-qf@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:العربي × خيطان — كأس سمو الأمير 2025–2026 (ربع النهائي)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20261201-zain-r9@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:العربي × التضامن — دوري زين الممتاز (الجولة 9)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20261205-zain-r10@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:العربي × الساحل — دوري زين الممتاز (الجولة 10)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20261212-zain-r11@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:العربي × الشباب — دوري زين الممتاز (الجولة 11)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20261217-zain-r5-postponed@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:العربي × السالمية — دوري زين الممتاز (مؤجلة من الجولة 5)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270104-zain-r12@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:العربي × الكويت — دوري زين الممتاز (الجولة 12)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270110-zain-r13@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:العربي × الجهراء — دوري زين الممتاز (الجولة 13)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270116-zain-r14@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:العربي × الصليبخات — دوري زين الممتاز (الجولة 14)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270120-zain-r15@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:العربي × كاظمة — دوري زين الممتاز (الجولة 15)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270125-supercup@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:العربي × القادسية — كأس السوبر الكويتي
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270204-zain-r16@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:العربي × السالمية — دوري زين الممتاز (الجولة 16)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270211-zain-r17@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:العربي × الفحيحيل — دوري زين الممتاز (الجولة 17)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270220-zain-r18@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:العربي × القادسية — دوري زين الممتاز (الجولة 18)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270227-crowncup-qf@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:العربي × يحدد بعد القرعة — كأس سمو ولي العهد (ربع النهائي)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270313-amircup-r16@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:العربي × خيطان — كأس سمو الأمير 2026–2027 (دور الـ16)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270411-zain-r19@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:العربي × النصر — دوري زين الممتاز (الجولة 19)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270425-zain-r20@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:العربي × التضامن — دوري زين الممتاز (الجولة 20)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270510-zain-r21@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:العربي × الساحل — دوري زين الممتاز (الجولة 21)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fix-20270518-zain-r22@alarabi.sc.kw
+SEQUENCE:1
+DTSTAMP:20261115T120000Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:العربي × الشباب — دوري زين الممتاز (الجولة 22)
+DESCRIPTION:التوقيت يحدد لاحقاً — تقويم مباريات النادي العربي الرياضي
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
